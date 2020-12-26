@@ -6,7 +6,7 @@ import { enableScreens } from "react-native-screens";
 import { LoadAssets, StyleGuide, cards } from "./src/components";
 import Examples, { examples } from "./src/Examples";
 import ClockValuesAndIdentities from "./src/ClockValuesAndIdentities";
-// import Transitions from "./src/Transitions";
+import Transitions from "./src/Transitions";
 // import UseTransition from "./src/UseTransition";
 // import Timing from "./src/Timing";
 // import PanGesture from "./src/PanGesture";
@@ -64,14 +64,14 @@ const AppNavigator = () => (
           title: "Clock Values & Identities",
         }}
       />
-      {/* <Stack.Screen
+      <Stack.Screen
         name="Transitions"
         component={Transitions}
         options={{
           title: "Transitions",
         }}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="useTransition"
         component={UseTransition}
         options={{

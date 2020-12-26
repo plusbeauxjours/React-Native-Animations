@@ -2,7 +2,7 @@
 export type Lessons = {
     Examples: undefined;
     ClockValuesAndIdentities: undefined;
-    // Transitions: undefined;
+    Transitions: undefined;
     // useTransition: undefined;
     // DarkMode: undefined;
     // Timing: undefined;
