@@ -17,11 +17,11 @@ export const examples = [
     title: "Transitions",
     source: require("../../assets/examples/transitions.png"),
   },
-  // {
-  //   screen: "useTransition",
-  //   title: "useTransition()",
-  //   source: require("../../assets/examples/useTransition.png"),
-  // },
+  {
+    screen: "useTransition",
+    title: "useTransition()",
+    source: require("../../assets/examples/useTransition.png"),
+  },
   // {
   //   screen: "Timing",
   //   title: "Timing",
